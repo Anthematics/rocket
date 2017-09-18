@@ -5,6 +5,10 @@ class Rocket
     @flying = options[:flying] || false
   end
 
+  #you can choose to give the rocket a color , a name and check if its
+  # flying but if you decide not to it wont be flying and it will be given a
+  #  random name / color.
+
   def name
     @name
   end
